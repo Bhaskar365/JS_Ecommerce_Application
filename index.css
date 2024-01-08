@@ -308,3 +308,8 @@ button.normal{
     background:#088178;
     color:#fff;
 }
+
+.sm-banner .banner-box {
+    border:2px solid red;
+    display: flex;
+}
