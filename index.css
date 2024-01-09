@@ -309,7 +309,69 @@ button.normal{
     color:#fff;
 }
 
-.sm-banner .banner-box {
-    border:2px solid red;
+#sm-banner{
     display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
 }
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    background-image: url('static_files/banner/b17.jpg');
+    min-width:580px;
+    height: 50dvh;
+    background-size:cover;
+    background-position: center;
+    padding:30px;
+}
+
+#sm-banner .banner-box2 {
+    background-image:url('static_files/banner/b10.jpg')
+}
+
+#sm-banner h4 {
+    color:white;
+    font-size:20px;
+    font-weight:400;
+}
+
+#sm-banner h2 {
+    color:#fff;
+    font-size:28px;
+    font-weight: 900;
+}
+
+#sm-banner span {
+    color:#fff;
+    font-size:14px;
+    font-weight:500;
+    padding-bottom: 15px;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight:600;
+    padding:11px 18px;
+    color:#fff;
+    background-color: transparent;
+    cursor:pointer;
+    border:1px solid white;
+    outline:none;
+    transition: 0.2s;
+}
+
+#sm-banner .banner-box:hover button {
+    background:#088178;
+    border:1px solid #088178;;
+}
+
+
+
+
+
+
+
