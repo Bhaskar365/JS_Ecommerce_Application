@@ -588,5 +588,49 @@ footer .copyright {
     #lg-bag { 
         display: none;
     }
+
+    #hero{
+        height: 70vh;
+        background-position:top 30% right 30%;
+        padding:0px 80px;    
+    }
+
+    #feature {
+        justify-content: center;
+    }
+
+    #feature .fe-box {
+        margin: 15px 15px;
+    }
+
+    .section-p1 {
+        padding: 40px 40px;
+    }
+
+    #product1 .pro-container {
+        justify-content: center;
+    }
+
+    #product1 .pro {
+        margin: 15px;
+    }
+
+    #banner {
+        height: 25dvh;
+    }
+
+    #sm-banner .banner-box {
+        width: 100%;        
+        height: 30vh;
+    }
+
+    #banner3 {
+        padding: 0 40px;
+    }
+
+    #banner3 .banner-box {
+        width: 30%;
+    }
+
 }
 
