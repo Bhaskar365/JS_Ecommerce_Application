@@ -698,6 +698,11 @@ footer .copyright {
     color: #c9cbce;
 }
 
+/* about page styling */
+#page-header.about-header{
+    background-image: url('static_files/about/banner.png');
+}
+
 @media (max-width:799px) {
 
     #navbar {
