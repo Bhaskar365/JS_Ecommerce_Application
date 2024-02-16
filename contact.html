@@ -1,125 +1,144 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compitable" content="IE=edge">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <title>Commerce App</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="index.css" />
-    </head>
-    <body>
-        
-        <section id="header">
-            <a href="#"><img src="static_files/logo.png" class="" alt=""></a>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compitable" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Commerce App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="static_files/logo.png" class="" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="">Home</a></li>
+                <li id="lg-bag"><a href="cart.html"></a><i class="fa fa-shopping-bag" aria-hidden="true"></i></li>
+                <a href="#" id="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"></a><i class="fa fa-shopping-bag"></i>
+            <i id="bar" class="fa fa-outdent" aria-hidden="true"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#Let's Talk</h2>
+        <p>LEAVE A MESSAGE.We love to hear from you!</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
             <div>
-                <ul id="navbar">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a class="active" href="contact.html">Contact</a></li>
-                    <li><a href="">Home</a></li>
-                    <li id="lg-bag"><a href="cart.html"></a><i class="fa fa-shopping-bag" aria-hidden="true"></i></li>
-                    <a href="#" id="close"><i class="fa fa-times" aria-hidden="true"></i></a>
-                </ul>
+                <li>
+                    <i class="fa fa-map-o" aria-hidden="true"></i>
+                    <p>646 Sporer Dale, Apt. 126, EF27 4AO, Port Wilfridstad, Arizona, Great Britain</p>
+                </li>
+                <li>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <p>contact@example.com</p>
+                </li>
+                <li>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <p>contact@example.com</p>
+                </li>
+                <li>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <p>Monday to Saturday: 9.00am to 4pm</p>
+                </li>
             </div>
-            <div id="mobile">
-                <a href="cart.html"></a><i class="fa fa-shopping-bag"></i>
-                <i id="bar" class="fa fa-outdent" aria-hidden="true"></i>
-            </div>
-        </section>
+        </div>
 
-        <section id="page-header" class="about-header">
-            <h2>#Let's Talk</h2>
-            <p>LEAVE A MESSAGE.We love to hear from you!</p> 
-        </section>
+        <div class="map">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.9674336546605!2d7.214507125837404!3d51.47711207180647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8e0149c479fe1%3A0x8721fdf434c23ba0!2sBermuda%20Triangle%2C%2044787%20Bochum%2C%20Germany!5e0!3m2!1sen!2sin!4v1708102381385!5m2!1sen!2sin" 
+            width="600" height="450" 
+            style="border:0;" allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
-        <section id="contact-details" class="section-p1">
-            <div class="details">
-                <span>GET IN TOUCH</span>
-                <h2>Visit one of our agency locations or contact us today</h2>
-                <h3>Head Office</h3>
-            </div>
-            <li>
-                <i class="fa fa-map-o" aria-hidden="true"></i>
-                <p>646 Sporer Dale, Apt. 126, EF27 4AO, Port Wilfridstad, Arizona, Great Britain</p>
-            </li>
-            <li>
-                <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                <p>contact@example.com</p>
-            </li>
-            <li>
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <p>122-512-123</p>
-            </li>
-        </section>
+    </section>
 
-        <section id="newsletter" class="section-p1 section-m1">
-            <div class="newstext">
-                <h4>Sign Up For Our Newsletter</h4>
-                <p>Get Latest E-Mail updates and <span>special offers.</span></p>
-            </div>
-            <div class="form">
-                <input type="text" placeholder="Enter email" />
-                <button class="normal">Sign Up</button>
-            </div>
-        </section>
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Our Newsletter</h4>
+            <p>Get Latest E-Mail updates and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter email" />
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
 
-        <footer class="section-p1"> 
-            <div class="col">
-                <img src="static_files/logo.png" class="logo" />
-                <h4>Contact</h4>
-                <p><strong>Address: </strong>44 Hardy Johnson Rd Elizabeth, Louisiana(LA), 70638</p>
-                <p><strong>Phone: </strong>(318) 634-5146 /(318) 754-3753 </p>
-                <p><strong>Hours: </strong> 10:00 - 18:00, Mon-Fri </p>
-                <div class="follow">
-                    <h4>Follow Us</h4>
-                    <div class="icon">
-                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                    </div>
+    <footer class="section-p1">
+        <div class="col">
+            <img src="static_files/logo.png" class="logo" />
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>44 Hardy Johnson Rd Elizabeth, Louisiana(LA), 70638</p>
+            <p><strong>Phone: </strong>(318) 634-5146 /(318) 754-3753 </p>
+            <p><strong>Hours: </strong> 10:00 - 18:00, Mon-Fri </p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
                 </div>
             </div>
+        </div>
 
-            <div class="col">
-                <H4>About</H4>
-                <a href="#">About Us</a>
-                <a href="#">Delivery Information</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Contact Us</a>
+        <div class="col">
+            <H4>About</H4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="static_files/pay/app.jpg" />
+                <img src="static_files/pay/play.jpg" />
             </div>
+            <p>Secured Payment Gateway</p>
+            <img src="static_files/pay/pay.png" />
+        </div>
 
-            <div class="col">
-                <h4>My Account</h4>
-                <a href="#">Sign In</a>
-                <a href="#">View Cart</a> 
-                <a href="#">My Wishlist</a> 
-                <a href="#">Track My Order</a> 
-                <a href="#">Help</a> 
-            </div>
+        <div class="copyright">
+            <p>© Copyright, All Right Reserved!</p>
+        </div>
+    </footer>
 
-            <div class="col install">
-                <h4>Install App</h4>
-                <p>From App Store or Google Play</p>
-                <div class="row">
-                    <img src="static_files/pay/app.jpg" />
-                    <img src="static_files/pay/play.jpg" />
-                </div>
-                <p>Secured Payment Gateway</p>
-                <img src="static_files/pay/pay.png" />
-            </div>
+    <script src="index.js"></script>
+</body>
 
-            <div class="copyright">
-                <p>© Copyright, All Right Reserved!</p>
-            </div>
-        </footer>
-
-        <script src="index.js"></script>
-    </body>
 </html>
